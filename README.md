@@ -80,7 +80,9 @@ timetable/README.md at main · HARININAGAPPAN/... https://github.com/HARININAGAP
  <table align="center" cellspacing="2" cellpadding="
 
 # OUPUT
-![image](https://github.com/musfiramahjabeen/timetable/assets/138971008/068477b3-e070-4441-ad59-6ca0c68b9a42)
+
+![image](https://github.com/musfiramahjabeen/timetable/assets/138971008/1cc7e148-d32b-45f3-87ac-1334f4915f0d)
+
 # RESULT
 The program for creating myproj timetable using basic HTML tags is executed successfully.
 
