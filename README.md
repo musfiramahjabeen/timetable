@@ -1,88 +1,128 @@
 # Experiment_Time_Table
 
 ## AIM
-To Write a html webpage page to display your timetable
+To Write a html webpage page to display your timetable.
 
 # ALGORITHM
 ### STEP 1
-create a Django-admin Interface
+create a simple table using table tag
 ### STEP 2
-create a static folder and inert HTML code
+Add header row using th tag
 ### STEP 3
-create a simple table using <table> tag in html.
-
+Add your timetable
 ### STEP 4
-Add header row using <th> tag.
+Execute the program
 
 # CODE
+```
+<!DOCTYPE html>
 <html>
- <head>
- <tittle></tittle>
- </head>
- <body>
- <center>
- <img src="/static/logo.png" height="100" 
-width="540">
- </center>
- <table align="center" width="540" cellspacing="2" 
-cellpadding="4" border="5" bgcolor="cyan">
- <caption><br>SLOT TIME TABLE - HARINI(23013709)
-</caption></caption>
- <tr align="center">
- <th bgcolor="yellow">Day/Time</th>
- <th bgcolor="yellow">Monday</th>
-timetable/README.md at main · HARININAGAPPAN/... https://github.com/HARININAGAPPAN/timetable/blob...
-4 of 6 22/11/23, 23:42
- <th bgcolor="yellow">Monday</th>
- <th bgcolor="yellow">Tuesday</th>
- <th bgcolor="yellow">Wednesday</th>
- <th bgcolor="yellow">Thursday</th>
- <th bgcolor="yellow">Friday</th>
- </tr>
- <tr align="center">
- <th bgcolor="yellow">8-10</th>
- <td >FUNDAMENTALS OF C PROGRAMMING</td>
- <td>COMMUNICATIVE ENGLISH</td>
- <td>PHYSICS FOR QUANTUM COMPUTATION</td>
- <td>STATISTICS AND NUMERICAL METHODS</td>
- <td>FUNDAMENTALS OF C PROGRAMMING</td>
- </tr>
- <tr align="center">
- <th bgcolor="yellow">10-12</th>
- <td>FREE SLOT</td>
- <td>FUNDAMENTALS OF WEB APPLICATION DEVELOPMENT</td>
- <td> PRINCIPALS OF CHEMISTRY IN ENGINEERING</td>
- <td>FREE SLOT</td>
- <td>STATISTICS AND NUMERICAL METHODS</td>
- </tr>
- <tr>
- <th bgcolor="yellow">12-1</th>
- <td colspan="5" align="center">L U N C H</td>
- </tr>
- <tr align="center">
- <th bgcolor="yellow">1-3</th> 
- <td >FREE SLOT</td>
- <td>FREE SLOT</td>
- <td>COMMUNICATIVE ENGLISH</td>
- <td>FUNDAMENTALS OF WEN APPLICATION</td>
- <td>SOFT SKILLS</td>
- </tr>
- <tr align="center">
- <th bgcolor="yellow">3-5</th>
- <td> STATISTICS AND NUMERICAL METHODS</td>
- <td>FREE SLOT</td>
- <td>FUNDAMENTALS OF WEB APPLICATION DEVELOPMENT</td>
- <td>PHYSICS FOR QUANTUM COMPUTATION</td>
- <td>PRINCIPALS OF CHEMISTRY IN ENGINEERING</td>
- </tr>
- </table>
- <br>
- <table align="center" cellspacing="2" cellpadding="
+<head>
+    <title>D
+ocument</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            
+        }
+    </style>
+</head>
+<body>
 
+    <div align="center">
+        <img src="logo.png" height="100" width="1000" align="center">
+    </div>
+
+    <h4 align="center" width="700">SLOT TIME TABLE - MUSFIRA MAHJABEEN M (23002165)</h4>
+    <table bgcolor="cyan" align="center" height="200">
+        <tr bgcolor="Yellow">
+            <th width="100">Day/Time</th>
+            <th width="100">Monday</th>
+            <th width="100">Tuesday</th>
+            <th width="100">Wednesday</th>
+            <th width="100">Thursday</th>
+            <th width="100">Friday</th>
+        </tr>
+        <tr align="center">
+            <td bgcolor="Yellow">8-10</td>
+            <td colspan="3">FREE SLOT</td>
+            <td>PHY</td>
+            <td>CHE</td>
+        </tr>
+        <tr align="center">
+            <td bgcolor="Yellow">10-12</td>
+            <td>GER</td>
+            <td>FREE SLOT</td>
+            <td>FWAD</td>
+            <td>FWAD</td>
+            <td>PHY</td>
+        </tr>
+        <tr align="center">
+            <td bgcolor="Yellow">12-1</td>
+            <td colspan="5">LUNCH</td>
+        </tr>
+        <tr align="center">
+            <td bgcolor="Yellow">1-3</td>
+            <td colspan="2">FREE SLOT</td>
+            <td>MAT</td>
+            <td>MAT</td>
+            <td>SS</td>
+        </tr>
+        <tr align="center">
+            <td bgcolor="Yellow">3-5</td>
+            <td colspan="2">FREE SLOT</td>
+            <td>GER</td>
+            <td>CHE</td>
+            <td>FWAD</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <table align="center" height="200">
+        <tr align="center">
+            <th width="100">S.No.</th>
+            <th width="100">Subject Code</th>
+            <th width="300">Subject Name</th>
+        </tr>
+        <tr>
+            <td align="center">1.</td>
+            <td align="center">19AI414</td>
+            <td width="500">Fundamentals of Web Application Development (FWAD)</td>
+        </tr>
+        <tr>
+            <td align="center">2.</td>
+            <td align="center">19EN612</td>
+            <td width="500">German Basic (GER)</td>
+
+        </tr>
+        <tr >
+            <td align="center">3.</td>
+            <td align="center">19PH206</td>
+            <td>Physics for Information Technology(PHY)</td>
+        </tr>
+        <tr >
+            <td align="center">4.</td>
+            <td align="center">19CY205</td>
+            <td>Principles of Chemistry in Engineering (CHE)</td>
+        </tr>
+        <tr>
+            <td align="center">5.</td>
+            <td  align="center">19MA201</td>
+            <td>Calculus and Matrix Algebra (MAT)</td>
+        </tr>
+        <tr>
+            <td  align="center">6.</td>
+            <td  align="center">19EY701</td>
+            <td>Soft Skills(SS)</td>
+        </tr>
+    </table>
+</body>
+</html>
+```
 # OUPUT
+![Screenshot 2023-12-19 233301](https://github.com/musfiramahjabeen/timetable/assets/138971008/c10091f0-e485-4e80-9c18-289b4ae9ee59)
 
-![image](https://github.com/musfiramahjabeen/timetable/assets/138971008/1cc7e148-d32b-45f3-87ac-1334f4915f0d)
 
-# RESULT
-The program for creating myproj timetable using basic HTML tags is executed successfully.
 
