@@ -122,7 +122,8 @@ ocument</title>
 </html>
 ```
 # OUPUT
-![Screenshot 2023-12-19 233301](https://github.com/musfiramahjabeen/timetable/assets/138971008/c10091f0-e485-4e80-9c18-289b4ae9ee59)
+![Screenshot 2023-12-19 233648](https://github.com/musfiramahjabeen/timetable/assets/138971008/f083899a-c48b-4cd0-9758-df0271972857)
+
 
 
 
