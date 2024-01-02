@@ -123,7 +123,8 @@ ocument</title>
 ```
 # OUPUT
 ![Screenshot 2023-12-19 233648](https://github.com/musfiramahjabeen/timetable/assets/138971008/f083899a-c48b-4cd0-9758-df0271972857)
-
+# RESULT
+The website to display your semester timetable is created.
 
 
 
